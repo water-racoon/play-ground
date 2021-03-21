@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>201868007김종찬</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
   <script>
     function home(){
       document.location.href='201868007_.html'
@@ -9,41 +10,60 @@
   </script>
 </head>
   <body>
-    <div style="background:#b3f0ff;width:100%; height:100%;position: relative;">
-      <aside style="width:20%; height:20%; border:1px solid #50bcdf; float:right;text-align:center; color:#50bcdf ">
+    <header>
+      <div class="mainbar"><h1>homepage main</h1></div>
+    </header>
+    <section>
+    <div class="card-main">
+      <div class="card-header">
         <h1>루비 태그</h1>
-        <ruby style="font-size:20px;">
+      </div>
+      <div class="card-body">
+        <ruby>
           <span>高電巴</span>
           <rt>고전파</rt>
         </ruby>
-      </aside>
-      <section style="background:#b3f0ff; width:20%; height:100%;border-right:50px solid color:#50bcdf">
-        <div style=" width:100%; text-align:center; color:#50bcdf">
+      </div>
+      </div>
+      <div class="card-main">
+        <div class="card-header">
           <h1>메인 페이지</h1>
-          <hr style="width:90%; height:5px;background-color:#50bcdf; border:0">
-          <p style="font-size:15px"><b>진하게&nbsp</b><i>기울기&nbsp</i><ins>&nbsp밑줄</ins><br><small>조그맣게&nbsp</small><sub>아래로 붙이기&nbsp</sub><sup>위로 붙이기</sup><br></p>
         </div>
-        <div style=" width:100%; height:100%; color:#50bcdf;">
-          <h1 style="font-size:30px; text-align:center;">정의태그</h1>
+        <div class="card-body">
+          <p><b>진하게&nbsp</b><i>기울기&nbsp</i><ins>&nbsp밑줄</ins><br><small>조그맣게&nbsp</small><sub>아래로 붙이기&nbsp</sub><sup>위로 붙이기</sup><br></p>
+        </div>
+        </div>
+        <div class="card-main">
+          <div class="card-header">
+          <h1>정의태그</h1></div>
+          <div class="card-body">
           <dl>
-            <dt style="font-size:18px;font-weight:bold">정의</dt>
+            <dt>정의</dt>
             <dd>정의의 부수설명태그</dd>
           </dl>
         </div>
-      </section>
-      <div style="width:100%; height:100%; color:#50bcdf; position:absolute; top:0; left:0; top:0; right:0; margin-left: 35%;">
-        <h1 onclick="home()">부수적인 태그 서랍</h1>
-        <table border=1 style="width:30%;height:60%; margin-left:-7%">
+        </div>
+      <div class="card-main">
+        <div class="card-header">
+        <h1>테이블 태그</h1>
+      </div>
+      <div class="card-body">
+        <table>
           <tr>
-            <th><a href='video.html'>동영상 태그</a></th>
-            <th><a href='audio.html'>오디오 태그</a></th>
+            <th><a href='#'>동영상 태그</a></td>
           </tr>
           <tr>
-            <th><a href='ol_ul.html'>OL과 UL</a></th>
-            <th><a href='form.html'>폼 태그</a></th>
+            <th><a href='#'>오디오 태그</a></td>
+        </tr>
+        <tr>
+            <th><a href='#'>OL과 UL</a></td>
+      </tr>
+          <tr>
+            <th><a href='#'>폼 태그</a></td>
           </tr>
         </table>
       </div>
-    </div>
+      </div>
+    </section>
   </body>
 </html>
