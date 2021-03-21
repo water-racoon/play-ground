@@ -1,0 +1,238 @@
+<style>
+html {
+  line-height: 1.15;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+body {
+  margin: 0;
+  font-size: 16;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  text-align: left;
+  background-color: #fff;
+}
+section{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 240px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 8;
+}
+p {
+  margin-top: 10;
+  margin-bottom: 16;
+}
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 16;
+}
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}
+dt {
+  font-weight: 700;
+}
+dd {
+  margin-bottom: 8;
+  margin-left: 0;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+small {
+  font-size: 50%;
+  font-weight: 400;
+}
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -25%;
+}
+sup {
+  top: -50%;
+}
+a {
+  color: #2fa4e7;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: #157ab5;
+  text-decoration: underline;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+table {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-collapse: collapse;
+  align-items: center;
+  justify-content: center;
+}
+th {
+  text-align: inherit;
+}
+button {
+  border-radius: 0;
+}
+button:focus:not(:focus-visible) {
+  outline: 0;
+}
+span + rt {
+  color:#7A6CCF;
+}
+span ~ rt {
+  font-size:20px;
+}
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+ruby{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+[role="button"] {
+  cursor: pointer;
+}
+select {
+  word-wrap: normal;
+}
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+  cursor: pointer;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+[hidden] {
+  display: none !important;
+}
+h1, h2, h3, h4, h5, h6{
+  margin-bottom: 8%;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #2fa4e7;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 32;
+}
+h3{
+  font-size: 28;
+}
+h4{
+  font-size: 24;
+}
+h5{
+  font-size: 20;
+}
+h6{
+  font-size: 16px;
+}
+hr {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: 0;
+  border-top: 1px solid #e5e5e5;
+}
+.mainbar {
+  position: relative;
+  padding: 8px 16px;
+  color:#fff;
+  background-color: #2fa4e7;
+  margin-bottom: 16px;
+}
+h1::first-letter {text-transform:uppercase;}
+
+.mainbar h1{
+  color:#fff;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+dd::selection {background:#000; color:#fff;}
+
+a:link{font-style:italic;}
+a:visited {color:#7A6CCF}
+
+.card-main{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #2fa4e7;
+  border-radius: 4px;
+  max-width: 320px;
+  height:inherit;
+}
+
+.card-header {
+  padding: 12px 20px;
+  margin-bottom: 0;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #d8d8d8;
+}
+.card-header > h1 {
+  margin-bottom:0px;
+}
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+</style>
