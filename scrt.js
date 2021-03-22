@@ -22,7 +22,7 @@ $(document).ready(function(){
       $(this).text("homepage main");
     });
   });
-  $(".mainbar").onclick(function(){
+  $(".mainbar").click(function(){
     document.location.href='201868007_.html'
   });
 });
