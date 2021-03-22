@@ -25,4 +25,7 @@ $(document).ready(function(){
   $(".mainbar").click(function(){
     document.location.href='201868007_.html'
   });
+  $('button').click(function(){
+    $('#secret').css('src',"'https://source.unsplash.com/1600x900/?secret'",'visibility',"visible")
+  })
 });
