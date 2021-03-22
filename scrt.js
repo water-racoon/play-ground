@@ -24,5 +24,5 @@ $(document).ready(function(){
   });
   $(".mainbar").onclick(function(){
     document.location.href='201868007_.html'
-  })
+  });
 });
